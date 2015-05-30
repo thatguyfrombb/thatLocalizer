@@ -1,14 +1,14 @@
 {
-	"name": "thatLocalizer",
+	"name": "thatSimpleLocalizer",
 	"description": "Allows the user to change the strings used by PAYDAY 2",
 	"author": "ThatGuyFromBB",
-	"contact": "https://github.com/thatguyfrombb/thatlocalizer",
+	"contact": "https://github.com/thatguyfrombb/thatSimpleLocalizer",
 	"version": "0.1",
 	"priority": 0,
 	"hooks": [
 		{
 			"hook_id": "lib/managers/localizationmanager",
-			"script_path": "thatLocalizer.lua"
+			"script_path": "thatSimpleLocalizer.lua"
 		}
 	]
 }
